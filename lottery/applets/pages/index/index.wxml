@@ -1,0 +1,8 @@
+<view class='content'>
+  <canvas canvas-id='bgCanvas' id='canvas-bg' class='canvasII'></canvas>
+  <view class='canvasI' style="{{isRotate?'transform:rotate('+isRotate+'deg)':''}};">
+  <canvas canvas-id='canvasI' id="canvas-one" class='canvasI' ></canvas>
+  </view>
+  <cover-image class='start' src='../../image/1.png' catchtap='start' />
+
+    </view>
